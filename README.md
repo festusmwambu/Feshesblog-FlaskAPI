@@ -27,8 +27,8 @@ Follow these steps if you want to run this application on your computer, either
 in a Docker container or as a standalone Python application.
 
 ```bash
-git clone https://github.com/festusmwambu/feshesblog-api
-cd feshesblog-api
+git clone https://github.com/festusmwambu/Feshesblog-FlaskAPI
+cd Feshesblog-FlaskAPI
 cp .env.example .env
 ```
 
@@ -49,7 +49,7 @@ running Docker locally).
 To populate the database with some randomly generated data:
 
 ```bash
-docker-compose run --rm feshesblog-api bash -c "flask fake users 10 && flask fake posts 100"
+docker-compose run --rm Feshesblog-FlaskAPI bash -c "flask fake users 10 && flask fake posts 100"
 ```
 
 To stop the application:
@@ -63,7 +63,7 @@ docker-compose down
 Set up a Python 3 virtualenv and install the dependencies on it:
 
 ```bash
-python3 -m venv venv
+python3.9 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -79,7 +79,7 @@ flask fake posts 100
 Run the application with the Flask development web server:
 
 ```bash
-flask run
+python feshesblog.py
 ```
 
 The application runs on `localhost:5000`. You can access the API documentation
@@ -97,5 +97,6 @@ Preferences, go to "Sharing" and uncheck "AirPlay Receiver".
     - If you are running Feshesblog API with Docker, add a
     `FESHESBLOG_API_PORT=4000` line to your *.env* file. Change the 4000 to your
     desired port number.
-    - If you are running Feshesblog API with Python, start the server with the
+    - If you are running Feshesblog-FlaskAPI with Python, start the server with the
     command `flask run --port=4000`.
+# Feshesblog-FlaskAPI
