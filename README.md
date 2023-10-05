@@ -1,6 +1,6 @@
 # Feshesblog-FlaskAPI
 
-Feshesblog-FlaskAPI is an easy to use web API for creating blogs. It is an ideal project to use when learning a front end framework, as it provides a fully implemented back end that you can integrate against.
+Feshesblog-FlaskAPI is an easy to use web API for creating blogs. It is an ideal project to use when learning a front-end framework, as it provides a fully implemented back end that you can integrate against.
 
 Feshesblog-FlaskAPI provides all the base features required to implement a blog web app:
 
@@ -99,4 +99,3 @@ Preferences, go to "Sharing" and uncheck "AirPlay Receiver".
     desired port number.
     - If you are running Feshesblog-FlaskAPI with Python, start the server with the
     command `flask run --port=4000`.
-# Feshesblog-FlaskAPI
