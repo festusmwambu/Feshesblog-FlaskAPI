@@ -1,6 +1,6 @@
 # Feshesblog-FlaskAPI
 
-Feshesblog-FlaskAPI is an easy to use web API for creating blogs. It is an ideal project to use when learning a front-end framework, as it provides a fully implemented back end that you can integrate against.
+`Feshesblog-FlaskAPI` is an easy to use web API for creating blogs. It is an ideal project to use when learning a front-end framework, as it provides a fully implemented back end that you can integrate against.
 
 Feshesblog-FlaskAPI provides all the base features required to implement a blog web app:
 
@@ -10,7 +10,9 @@ Post creation and deletion
 Follow and unfollow users
 Feed with posts from followed users
 Pagination
-Option to disable authentication during development
+Option to disable authentication during development.
+
+Feshesblog-FlaskAPI is developed on `Python-Flask` as the backend programming language, `elasticsearch` as a full-text search-engine , `PostgreSQL` as a relational database and `unittest` for writing and running tests for Python source code.
 
 ## Deploy to Heroku
 
